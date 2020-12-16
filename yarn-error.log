@@ -1,0 +1,88 @@
+Arguments: 
+  D:\Java\nodejs\node.exe D:\Java\nodejs\node_global\node_modules\yarn\bin\yarn.js add redux react-redux
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\EmEditor;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;D:\Java\JDK\bin;D:\Java\JDK\jre\binD:\Java\Gradle/bin;D:\software\SDK\platform-tools;D:\software\SDK\tools;C:\Program Files (x86)\FJCA\FJCAUserTools;D:\Java\JDK\bin\;D:\Java\Gradle\bin\;D:\Java\NodeJs\bin\;D:\Java\NodeJs\node_global;D:\Java\NodeJs\node_global\node_modulesD:\software\NDK;D:\Java\Tomcat2\bin;D:\Java\Tomcat-2\lib;D:\Java\Tomcat\bin;D:\Java\Tomcat\lib;D:\Java\Maven\bin;D:\Java\nodejs\;D:\Java\Python3\Scripts\;D:\Java\Python3\;D:\Java\Mysql\bin;D:\Java\SSH;C:\Users\Administrator\AppData\Roaming\npm;D:\Java\WebStorm2020\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\projects\taro-demo\node_modules\node-sass\vendor\win32-x64-72\binding.node'
+
+npm manifest: 
+  {
+    "name": "taro-demo",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "templateInfo": {
+      "name": "taro-ui",
+      "typescript": false,
+      "css": "sass"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "build:qq": "taro build --type qq",
+      "build:jd": "taro build --type jd",
+      "build:quickapp": "taro build --type quickapp",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch",
+      "dev:qq": "npm run build:qq -- --watch",
+      "dev:jd": "npm run build:jd -- --watch",
+      "dev:quickapp": "npm run build:quickapp -- --watch"
+    },
+    "browserslist": [
+      "last 3 versions",
+      "Android >= 4.1",
+      "ios >= 8"
+    ],
+    "author": "",
+    "dependencies": {
+      "@babel/runtime": "^7.7.7",
+      "@tarojs/cli": "3.0.17",
+      "@tarojs/components": "3.0.17",
+      "@tarojs/runtime": "3.0.17",
+      "@tarojs/taro": "3.0.17",
+      "lodash": "4.17.15",
+      "@tarojs/react": "3.0.17",
+      "react": "^16.10.0",
+      "react-dom": "^16.10.0",
+      "taro-ui": "^3.0.0-alpha.3"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.0",
+      "@tarojs/mini-runner": "3.0.17",
+      "@tarojs/webpack-runner": "3.0.17",
+      "@types/webpack-env": "^1.13.6",
+      "babel-preset-taro": "3.0.17",
+      "eslint": "^6.8.0",
+      "eslint-config-taro": "3.0.17",
+      "stylelint": "9.3.0",
+      "@types/react": "^16.0.0",
+      "eslint-plugin-react": "^7.8.2",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-react-hooks": "^1.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
